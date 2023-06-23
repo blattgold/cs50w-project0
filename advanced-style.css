@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+#tr-links {
+	text-align: right;
+}
+
+#search-container {
+	display: grid;
+	margin-top: 30px;
+	grid-template-columns: 250px 500px;
+	grid-row-gap: 16px;
+}
+
+#search-button {
+	display: block;
+	margin: 16px auto 0 0;
+	border: 0;
+	border-radius: 8px;
+	color: white;
+	background: lightskyblue;
+	padding: 12px 18px;
+	font-size: inherit;
+}
